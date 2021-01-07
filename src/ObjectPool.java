@@ -9,4 +9,12 @@ public class ObjectPool {
 
         objectPoolInstance = this;
     }
+
+    public static ObjectPool getInstance() {
+        return objectPoolInstance;
+    }
+
+    public static void adquire() {
+
+    }
 }
